@@ -1,3 +1,5 @@
+package JavaExercism;
+
 public class FootballMatchReports {
     public static void main(String[] args) {
 

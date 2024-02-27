@@ -1,3 +1,5 @@
+package JavaExercism;
+
 public class SqueakyClean {
     public static void main(String[] args) {
         clean("¡hello world!.");

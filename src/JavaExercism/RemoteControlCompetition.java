@@ -1,3 +1,5 @@
+package JavaExercism;
+
 public class RemoteControlCompetition {
     public static void main(String[] args) {
 

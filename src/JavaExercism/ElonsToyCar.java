@@ -1,4 +1,9 @@
+package JavaExercism;
+
 public class ElonsToyCar {
+    private int drivenMeters;
+    private int battery = 100;
+
     public static void main(String[] args) {
         ElonsToyCar newCar = new ElonsToyCar();
         for (int i = 0; i < 17; i++) {
@@ -7,8 +12,7 @@ public class ElonsToyCar {
         newCar.distanceDisplay();
         newCar.batteryDisplay();
     }
-    private int drivenMeters;
-    private int battery = 100;
+
     public static ElonsToyCar buy() {
         return new ElonsToyCar();
     }

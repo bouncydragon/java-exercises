@@ -1,3 +1,5 @@
+package JavaExercism;
+
 public class TimFromMarketing {
     public String print(Integer id, String name, String department) {
         String deptPosition = department != null ? department : "owner";

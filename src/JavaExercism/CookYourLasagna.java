@@ -1,3 +1,5 @@
+package JavaExercism;
+
 public class CookYourLasagna {
     public static void main(String[] args) {
     }

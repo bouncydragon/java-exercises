@@ -1,3 +1,5 @@
+package JavaExercism;
+
 public class CalculatorConundrum {
     public static void main(String[] args) throws IllegalOperationException {
         CalculatorConundrum abc = new CalculatorConundrum();

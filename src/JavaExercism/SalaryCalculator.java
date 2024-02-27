@@ -1,12 +1,14 @@
+package JavaExercism;
+
 public class SalaryCalculator {
+    int threshold = 5;
+    double baseSalary = 1000.00;
+    double salaryCapped = 2000.00;
+
     public static void main(String[] args) {
         SalaryCalculator sal = new SalaryCalculator();
         sal.finalSalary(7, 0);
     }
-
-    int threshold = 5;
-    double baseSalary = 1000.00;
-    double salaryCapped = 2000.00;
 
     public double salaryMultiplier(int daysSkipped) {
         return daysSkipped < threshold ? 1.0 : 0.85;

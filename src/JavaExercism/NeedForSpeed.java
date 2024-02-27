@@ -1,4 +1,15 @@
+package JavaExercism;
+
 public class NeedForSpeed {
+    private int speed;
+    private int batteryDrain;
+    private int distanceDriven;
+    private int remainingBattery = 100;
+    NeedForSpeed(int speed, int batteryDrain) {
+        this.speed = speed;
+        this.batteryDrain = batteryDrain;
+    }
+
     public static void main(String[] args) {
         NeedForSpeed formulaOne = new NeedForSpeed(5, 2);
         RaceTrack nfs = new RaceTrack(100);
@@ -8,14 +19,8 @@ public class NeedForSpeed {
         formulaOne.distanceDriven();
     }
 
-    private int speed;
-    private int batteryDrain;
-    private int distanceDriven;
-    private int remainingBattery = 100;
-
-    NeedForSpeed(int speed, int batteryDrain) {
-        this.speed = speed;
-        this.batteryDrain = batteryDrain;
+    public static NeedForSpeed nitro() {
+        return new NeedForSpeed(50, 4);
     }
 
     public boolean batteryDrained() {
@@ -32,10 +37,6 @@ public class NeedForSpeed {
             this.distanceDriven += this.speed;
             this.remainingBattery -= this.batteryDrain;
         }
-    }
-
-    public static NeedForSpeed nitro() {
-        return new NeedForSpeed(50, 4);
     }
 }
 

@@ -1,3 +1,5 @@
+package JavaExercism;
+
 public enum LogLevel {
     TRACE (1),
     DEBUG (2),
